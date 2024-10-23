@@ -1,0 +1,16 @@
+.glass{
+    @apply sm:bg-login sm:border-4 sm:border-gray-50 shrink-0 max-w-full h-[75%] sm:rounded-3xl py-20 px-7    backdrop-blur md:shadow-[0_4px_30px_#4747470b]
+}
+
+.profile_img{
+    @apply border-4 border-gray-100 w-[120px] rounded-full shadow-lg cursor-pointer;
+    @apply hover:border-gray-200
+}
+
+.textbox{
+    @apply border-gray-700 shadow-sm rounded py-4 px-5 w-3/4 text-lg focus:outline-none
+}
+
+.btn{
+    @apply bg-indigo-500 border w-3/4 rounded-lg py-4 px-5 text-gray-50 text-xl shadow-sm hover:bg-indigo-600
+}
